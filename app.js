@@ -28,11 +28,7 @@
         
         function calculateChars(string){
             var chars =string.split(',');
-            var counts = 0;
-            for(var i=0;i<chars.length;i++){
-                counts ++;
-            }
-            return counts;
+            return chars.length;
         }
         //set message styles
         $scope.messageStyle = function () {
@@ -50,3 +46,4 @@
         
     }
 })();
+
